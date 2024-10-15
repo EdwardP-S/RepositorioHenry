@@ -1,1 +1,1 @@
-# RepositorioHenry
+Carpeta destinada para depositar los resultados de las tareas del PrepCourse de Henry. :D
