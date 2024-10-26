@@ -1,0 +1,79 @@
+body {
+    background-color:rgba(136, 255, 0, 0.788);
+    margin: 20px;
+}
+
+.title {
+    font-family: fantasy;
+    font-weight: lighter;
+    font-style: unset;
+    font-size: 1.5em;
+    color: rgba(255, 0, 64, 0.863);
+}
+
+.miTexto {
+    color: rgb(55, 46, 63);
+    font-family: system-ui;
+}
+
+.tarjetas {
+    border: 0.1em solid rgb(106, 71, 233);
+    width: fit-content;
+    padding: 1em 1em 1em 1em;
+    border-radius: 10%;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    align-items: center ;
+}
+
+.tarjetas:hover{
+    background-color: #fd257875;
+}
+
+.buttons {
+    width: 300px;
+    height: 250px;
+}
+
+#cabeza {
+    font-size: 4em;
+    color: rgba(255, 0, 64, 0.863);
+    border: 2px;
+    padding-bottom: 2%;
+}
+
+#presentacion {
+    font-family: 'Times New Roman';
+    padding-top: 1%;
+    font-size: x-large;
+}
+
+#sub {
+    font-family: 'Trebuchet MS';
+    color: #e96e0a;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+
+#titulo {
+    border: 0.1em solid rgb(106, 71, 233);
+    width: 50vw;
+    margin: auto;
+    padding: 1em 1.5em 1em 1.5em; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#tarjetas-cont {
+    width: 80vw;
+    margin: auto;
+    margin-top: 2em;
+    border: 3.5px solid rgb(142, 112, 248);
+    border-radius: 10px;
+    padding: 1.5em;
+    display: flex;
+    justify-content: space-around;
+}
